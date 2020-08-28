@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 // ReSharper disable All
 
 public class HexMapGenerator : MonoBehaviour
@@ -11,8 +12,10 @@ public class HexMapGenerator : MonoBehaviour
     public int scale;
     public float yScale;
     public HeightMapSettings heightMapSettings;
-    //
+    
     public GameObject prefabTile;
+
+    public NavMeshSurface surface;
     // Start is called before the first frame update
     void Start()
     {     
@@ -33,13 +36,15 @@ public class HexMapGenerator : MonoBehaviour
             
             
         }
+        
+        surface.BuildNavMesh(); 
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("shit");
     }
     
     public HeightMap GenerateHeightMap(int width, int height, HeightMapSettings settings, Vector2 sampleCentre) {
