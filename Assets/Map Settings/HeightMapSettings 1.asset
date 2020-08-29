@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoUpdate: 1
   noiseSettings:
-    normalizeMode: 1
+    normalizeMode: 0
     scale: 20
     octaves: 6
     persistance: 0.498
@@ -29,26 +29,35 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.0039945133
       value: 0.0035915673
-      inSlope: 0.5114178
-      outSlope: 0.5114178
+      inSlope: 0.032159735
+      outSlope: 0.032159735
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.3021595
     - serializedVersion: 3
-      time: 0.21946654
-      value: 0.2872514
-      inSlope: 0.23097038
-      outSlope: 0.23097038
+      time: 0.06615803
+      value: 0.009737266
+      inSlope: 0.036462944
+      outSlope: 0.036462944
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.96153975
+      outWeight: 0.53209376
+    - serializedVersion: 3
+      time: 0.3016535
+      value: 0.32072076
+      inSlope: 0.5875644
+      outSlope: 0.5875644
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.33333334
+      outWeight: 0.2578996
     - serializedVersion: 3
-      time: 0.7242992
-      value: 0.7055397
-      inSlope: 0.32413742
-      outSlope: 0.32413742
+      time: 0.77495664
+      value: 0.7128691
+      inSlope: 2.2423377
+      outSlope: 2.2423377
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -56,11 +65,11 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.99850297
       value: 0.9933111
-      inSlope: 1.012341
-      outSlope: 1.012341
+      inSlope: 2.6450694
+      outSlope: 2.6450694
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.30146602
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2

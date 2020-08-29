@@ -1,10 +1,13 @@
-# Blender MTL File: 'hexagon.blend'
+# Blender MTL File: 'None'
 # Material Count: 1
 
-newmtl None
-Ns 500
-Ka 0.8 0.8 0.8
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
+newmtl Pasture
+Ns 18.000005
+Ka 1.000000 1.000000 1.000000
+Kd 0.588235 0.588235 0.588235
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Yoinked Stuff\\Hextiles\\texture_hexlands\\TileTextures_High\\Pasture_ground_Albedo.png

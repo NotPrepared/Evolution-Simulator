@@ -73,6 +73,7 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
+     <Compile Include="Assets\Scripts\Data\TileConditions.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\SimpleMouseRotator.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
@@ -161,7 +162,7 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\Data\TileConditions.cs" />
+     <Compile Include="Assets\Scripts\FlyCamera.cs" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />

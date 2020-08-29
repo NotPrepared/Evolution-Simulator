@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minHeight: 0.05
   maxHeight: 1
-  prefabTile: {fileID: 2968214104437029662, guid: c7233069346bd94429403c184c9375bb,
+  minHumidity: 0
+  maxHumidity: 0
+  minTemperature: 0
+  maxTemperature: 0
+  prefabTile: {fileID: 627441743448067695, guid: 25960c445e10faf48830f5d5e7bea6aa,
     type: 3}

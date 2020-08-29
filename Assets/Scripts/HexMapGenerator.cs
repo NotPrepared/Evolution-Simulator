@@ -23,46 +23,54 @@ public class HexMapGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GenerateTileMap();
+
+        //surface.BuildNavMesh();
+    }
+
+    private void GenerateTileMap()
+    {
         Map heightMap = GenerateMap(length, height, heightMapSettings, Vector2.zero);
-        Map humidityMap = GenerateMap(length, height, humidityMapSettings, Vector2.zero);
-        Map temperatureMap = GenerateMap(length, height, temperatureMapSettings, Vector2.zero);
+        Map humidityMap = GenerateMap(length, height, humidityMapSettings, new Vector2(2000, 2000));
+        Map temperatureMap = GenerateMap(length, height, temperatureMapSettings, new Vector2(1000, 1000));
 
         float[,] falloffMap = GenerateFalloffMap(length);
-        //float xIntervall = prefabTile;
+        float zScale = 0.865f * scale;
+        float xScale = 0.75f * scale;
+        yScale *= scale;
+        float maxHeight = heightMap.maxValue;
         for (int xCoord = 0; xCoord <= length - 1; xCoord++)
         {
             float zOffset = (xCoord % 2) / 2.0f;
-            float xCoordNormalized = xCoord * scale * 0.75f;
+            float xCoordNormalized = xCoord * xScale;
             float zCoordNormalized;
             for (int zCoord = 0; zCoord <= length - 1; zCoord++)
             {
-                zCoordNormalized = (zCoord + zOffset) * scale * 0.865f;
-                float height = heightMap.values[xCoord, zCoord] / heightMap.maxValue * falloffMap[xCoord, zCoord];
-                height = Mathf.Lerp(0f, 1f, height);
-
-                Debug.Log("Height Map value: " + (heightMap.values[xCoord, zCoord] / heightMap.maxValue).ToString());
+                zCoordNormalized = (zCoord + zOffset) * zScale;
+                float height = heightMap.values[xCoord, zCoord] / maxHeight * falloffMap[xCoord, zCoord];
+                float humidity = humidityMap.values[xCoord, zCoord];
+                float temperature = temperatureMap.values[xCoord, zCoord];
+                /*Debug.Log("Height Map value: " + (heightMap.values[xCoord, zCoord] / maxHeight).ToString());
                 Debug.Log("Falloff Map Value: " + falloffMap[xCoord, zCoord].ToString());
-                Debug.Log("Height Value: " + height.ToString());
+                Debug.Log("Height Value: " + height.ToString());*/
 
-                float yCoordNormalized = (scale * yScale) * height;
-                Vector3 coords = new Vector3(xCoordNormalized, yCoordNormalized, zCoordNormalized);
+                float yCoordNormalized = yScale * height;
+                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized, zCoordNormalized);
 
-                GameObject rightPrefab = findValidTile(height);
+                GameObject rightPrefab = findValidTile(height, humidity, temperature);
 
-                GameObject newTile = Instantiate(rightPrefab, coords, Quaternion.identity);
+                GameObject newTile = Instantiate(rightPrefab, coordsForTile, Quaternion.identity);
 
                 newTile.transform.localScale = new Vector3(scale, heightMap.maxValue * yScale, scale);
             }
         }
-
-        surface.BuildNavMesh();
     }
 
-    public GameObject findValidTile(float height)
+    public GameObject findValidTile(float height, float humidity, float temperature)
     {
         for (int i = 0; i < tileConditions.Length; i++)
         {
-            if (tileConditions[i].CheckIfValid(height)) return tileConditions[i].prefabTile;
+            if (tileConditions[i].CheckIfValid(height, humidity, temperature)) return tileConditions[i].prefabTile;
         }
 
         Debug.Log("no valid tile found");
@@ -121,11 +129,11 @@ public class HexMapGenerator : MonoBehaviour
 
     static float Evaluate(float value)
     {
-        float a = 3;
-        float b = 2.2f;
+        float a = 5f;
+        float b = 5f;
 
         float returnValue = Mathf.Pow(value, a) / (Mathf.Pow(value, a) + Mathf.Pow(b - b * value, a));
-        return Mathf.Lerp(1f, 0.0000000000001f, returnValue);
+        return Mathf.Lerp(1f, 0f, returnValue);
     }
 }
 

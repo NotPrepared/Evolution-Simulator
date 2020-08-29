@@ -19,6 +19,7 @@
             <e p="UpdatableData.cs" t="Include" />
           </e>
           <e p="FalloffGenerator.cs" t="Include" />
+          <e p="FlyCamera.cs" t="Include" />
           <e p="HexMapGenerator.cs" t="Include" />
           <e p="HideOnPlay.cs" t="Include" />
           <e p="MeshGenerator.cs" t="Include" />
