@@ -50,12 +50,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
      <Compile Include="Assets\Editor\UpdatableDataEditor.cs" />
-     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
-     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
-     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
-     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
-     <Compile Include="Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
+     <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -712,17 +718,9 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{705faa78-f977-2d73-e7ba-0af1948a2e7f}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{ae377564-1e64-cc4a-4976-9e73051e8da3}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{dad2edd5-5714-2d0c-6071-99dbf519e809}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
