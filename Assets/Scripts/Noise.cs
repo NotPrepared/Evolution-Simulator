@@ -50,7 +50,7 @@ public static class Noise
                     float sampleX = (x - halfWidth + octaveOffsets[i].x) / settings.scale * frequency;
                     float sampleY = (y - halfHeight + octaveOffsets[i].y) / settings.scale * frequency;
 
-                    float perlinValue = Mathf.PerlinNoise(sampleX, sampleY) * 2 - 1;
+                    float perlinValue = Mathf.PerlinNoise(sampleX, sampleY);
                     noiseHeight += perlinValue * amplitude;
 
                     amplitude *= settings.persistance;
@@ -91,7 +91,7 @@ public class NoiseSettings
     public int octaves = 6;
     [Range(0, 1)] public float persistance = .6f;
     public float lacunarity = 2;
-
+    
     public int seed;
     public Vector2 offset;
 

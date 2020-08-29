@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 29c670c4525aff540b8f1bb757fbc459, type: 3}
-  m_Name: LowHeight
+  m_Name: SnowCondition
   m_EditorClassIdentifier: 
   minHeight: -0.1
-  maxHeight: 0.05
-  minHumidity: 0
-  maxHumidity: 0
-  minTemperature: 0
-  maxTemperature: 0
-  prefabTile: {fileID: 627441743448067695, guid: 25960c445e10faf48830f5d5e7bea6aa,
+  maxHeight: 1
+  minHumidity: -0.1
+  maxHumidity: 1
+  minTemperature: -0.1
+  maxTemperature: 0.3
+  prefabTile: {fileID: 5895356192501633656, guid: e55c532c4029cff48b3b468b41438059,
     type: 3}

@@ -15,8 +15,8 @@ MonoBehaviour:
   autoUpdate: 1
   noiseSettings:
     normalizeMode: 0
-    scale: 10
-    octaves: 6
+    scale: 20
+    octaves: 3
     persistance: 0.498
     lacunarity: 2
     seed: 69

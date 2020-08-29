@@ -68,6 +68,7 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\AutoCam.cs" />
      <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Scripts\FlyCamera.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\WaypointProgressTracker.cs" />
@@ -162,7 +163,6 @@
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\FlyCamera.cs" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />

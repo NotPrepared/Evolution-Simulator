@@ -31,14 +31,16 @@ public class HexMapGenerator : MonoBehaviour
     private void GenerateTileMap()
     {
         Map heightMap = GenerateMap(length, height, heightMapSettings, Vector2.zero);
-        Map humidityMap = GenerateMap(length, height, humidityMapSettings, new Vector2(2000, 2000));
-        Map temperatureMap = GenerateMap(length, height, temperatureMapSettings, new Vector2(1000, 1000));
+        Map humidityMap = GenerateMap(length, height, humidityMapSettings, Vector2.zero);
+        Map temperatureMap = GenerateMap(length, height, temperatureMapSettings, Vector2.zero);
 
         float[,] falloffMap = GenerateFalloffMap(length);
         float zScale = 0.865f * scale;
         float xScale = 0.75f * scale;
         yScale *= scale;
         float maxHeight = heightMap.maxValue;
+        float maxTemperature = temperatureMap.maxValue;
+        float maxHumidity = humidityMap.maxValue;
         for (int xCoord = 0; xCoord <= length - 1; xCoord++)
         {
             float zOffset = (xCoord % 2) / 2.0f;
@@ -48,8 +50,8 @@ public class HexMapGenerator : MonoBehaviour
             {
                 zCoordNormalized = (zCoord + zOffset) * zScale;
                 float height = heightMap.values[xCoord, zCoord] / maxHeight * falloffMap[xCoord, zCoord];
-                float humidity = humidityMap.values[xCoord, zCoord];
-                float temperature = temperatureMap.values[xCoord, zCoord];
+                float humidity = humidityMap.values[xCoord, zCoord]/maxHumidity;
+                float temperature = temperatureMap.values[xCoord, zCoord]/maxTemperature;
                 /*Debug.Log("Height Map value: " + (heightMap.values[xCoord, zCoord] / maxHeight).ToString());
                 Debug.Log("Falloff Map Value: " + falloffMap[xCoord, zCoord].ToString());
                 Debug.Log("Height Value: " + height.ToString());*/
@@ -129,8 +131,8 @@ public class HexMapGenerator : MonoBehaviour
 
     static float Evaluate(float value)
     {
-        float a = 5f;
-        float b = 5f;
+        float a = 2f;
+        float b = 1f;
 
         float returnValue = Mathf.Pow(value, a) / (Mathf.Pow(value, a) + Mathf.Pow(b - b * value, a));
         return Mathf.Lerp(1f, 0f, returnValue);
