@@ -9,61 +9,73 @@ using UnityEngine.AI;
 public class HexMapGenerator : MonoBehaviour
 {
     public int length;
-    public int height;
+    public int width;
     public int scale;
     public float yScale;
     public MapSettings heightMapSettings;
     public MapSettings humidityMapSettings;
     public MapSettings temperatureMapSettings;
+    public GameObject waterPlane;
+    public float waterHeight;
 
     public TileConditions[] tileConditions;
 
     public NavMeshSurface surface;
 
-    // Start is called before the first frame update
+    private static float tilesPer1UnitY = 4.5312f;
+    private static float tilesPer1UnitX = 0.75f;
+    private static float tilesPer1UnitZ = 0.865f;
     void Start()
     {
         GenerateTileMap();
-
-        //surface.BuildNavMesh();
+        
+        surface.BuildNavMesh();
     }
 
     private void GenerateTileMap()
     {
-        Map heightMap = GenerateMap(length, height, heightMapSettings, Vector2.zero);
-        Map humidityMap = GenerateMap(length, height, humidityMapSettings, Vector2.zero);
-        Map temperatureMap = GenerateMap(length, height, temperatureMapSettings, Vector2.zero);
+        Map heightMap = GenerateMap(length, width, heightMapSettings, Vector2.zero);
+        Map humidityMap = GenerateMap(length, width, humidityMapSettings, Vector2.zero);
+        Map temperatureMap = GenerateMap(length, width, temperatureMapSettings, Vector2.zero);
 
         float[,] falloffMap = GenerateFalloffMap(length);
-        float zScale = 0.865f * scale;
-        float xScale = 0.75f * scale;
+        float zScale = tilesPer1UnitZ * scale;
+        float xScale = tilesPer1UnitX * scale;
         yScale *= scale;
+        float maxYDifference = yScale * tilesPer1UnitY;
+        Debug.Log("MaxYDif: " + maxYDifference.ToString());
+        
+        waterPlane.transform.position= new Vector3(tilesPer1UnitX *scale*length/2f, waterHeight* yScale, tilesPer1UnitZ *scale*width/2f);
+        waterPlane.transform.localScale= new Vector3(tilesPer1UnitX *length/2f, 1, tilesPer1UnitZ *width/2f);
+        
+        
         float maxHeight = heightMap.maxValue;
         float maxTemperature = temperatureMap.maxValue;
         float maxHumidity = humidityMap.maxValue;
-        for (int xCoord = 0; xCoord <= length - 1; xCoord++)
+        for (int xCoord = 0; xCoord < length; xCoord++)
         {
             float zOffset = (xCoord % 2) / 2.0f;
             float xCoordNormalized = xCoord * xScale;
             float zCoordNormalized;
-            for (int zCoord = 0; zCoord <= length - 1; zCoord++)
+            for (int zCoord = 0; zCoord < width; zCoord++)
             {
                 zCoordNormalized = (zCoord + zOffset) * zScale;
-                float height = heightMap.values[xCoord, zCoord] / maxHeight * falloffMap[xCoord, zCoord];
-                float humidity = humidityMap.values[xCoord, zCoord]/maxHumidity;
-                float temperature = temperatureMap.values[xCoord, zCoord]/maxTemperature;
+                float height = heightMap.values[xCoord, zCoord]  * falloffMap[xCoord, zCoord];
+                float humidity = humidityMap.values[xCoord, zCoord];
+                float temperature = temperatureMap.values[xCoord, zCoord];
                 /*Debug.Log("Height Map value: " + (heightMap.values[xCoord, zCoord] / maxHeight).ToString());
                 Debug.Log("Falloff Map Value: " + falloffMap[xCoord, zCoord].ToString());
                 Debug.Log("Height Value: " + height.ToString());*/
-
+                
                 float yCoordNormalized = yScale * height;
-                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized, zCoordNormalized);
+                //(maxYDifference/2.0f)
+                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized-maxYDifference/20, zCoordNormalized);
 
                 GameObject rightPrefab = findValidTile(height, humidity, temperature);
 
                 GameObject newTile = Instantiate(rightPrefab, coordsForTile, Quaternion.identity);
 
-                newTile.transform.localScale = new Vector3(scale, heightMap.maxValue * yScale, scale);
+                newTile.transform.localScale = new Vector3(scale, maxYDifference, scale);
             }
         }
     }
@@ -93,7 +105,7 @@ public class HexMapGenerator : MonoBehaviour
         {
             for (int j = 0; j < height; j++)
             {
-                values[i, j] *= heightCurve_threadsafe.Evaluate(values[i, j]) * settings.heightMultiplier;
+                values[i, j] *= heightCurve_threadsafe.Evaluate(values[i, j]);
 
                 if (values[i, j] > maxValue)
                 {

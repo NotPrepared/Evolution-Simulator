@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29c670c4525aff540b8f1bb757fbc459, type: 3}
   m_Name: SnowCondition
   m_EditorClassIdentifier: 
-  minHeight: -0.1
+  minHeight: 0.2
   maxHeight: 1
   minHumidity: -0.1
   maxHumidity: 1

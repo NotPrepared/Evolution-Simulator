@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 112567753658929839}
   m_Layer: 0
-  m_Name: DebugTile 1
+  m_Name: DebugTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 4016696535496727981, guid: 37dd4eab4795d604fb5ca66c58e04dd3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.049
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4016696535496727981, guid: 37dd4eab4795d604fb5ca66c58e04dd3,
         type: 3}

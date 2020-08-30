@@ -55,12 +55,8 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\EventSystemChecker.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
@@ -69,18 +65,14 @@
      <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\TimedObjectActivator.cs" />
      <Compile Include="Assets\Scripts\FlyCamera.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
      <Compile Include="Assets\Scripts\Data\TileConditions.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\SimpleMouseRotator.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\CurveControlledBob.cs" />
      <Compile Include="Assets\Scripts\Data\MapSettings.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\DragRigidbody.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
      <Compile Include="Assets\Scripts\HexMapGenerator.cs" />
@@ -89,7 +81,6 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
@@ -104,14 +95,10 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\ObjectResetter.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
@@ -130,16 +117,10 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
      <Compile Include="Assets\Scripts\Data\UpdatableData.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\AlphaButtonClickMask.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\DynamicShadowSettings.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
      <Compile Include="Assets\Scripts\HideOnPlay.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\LerpControlledBob.cs" />
-     <Compile Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\FollowTarget.cs" />
@@ -170,11 +151,8 @@
      <None Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-     <None Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
-     <None Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
@@ -192,9 +170,7 @@
      <None Include="Assets\Yoinked Stuff\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Yoinked Stuff\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Fonts\OpenSans\License!.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -294,6 +270,18 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>D:/Unity Projekte/Evolution Simulator/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

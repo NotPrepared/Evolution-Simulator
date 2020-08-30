@@ -20,137 +20,307 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ff8755-9fe9-45fe-b495-188f3afca575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/AridGreen.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/AridGreen.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/LushGreen.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/LushGreen.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Snow 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Snow 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/AridGreenCondition.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/AridGreenCondition.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/LushGreenCondition.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/LushGreenCondition.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/SnowCondition.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/SnowCondition.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/WaterCondition.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/WaterCondition.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/AridGreenTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/AridGreenTile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/LushGreenTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/LushGreenTile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Old Debug.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/Old Debug.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SnowTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SnowTile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/WaterTile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tiles/WaterTile.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gravel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gravel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sand.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Sand.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Water Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Water Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Water.shadergraph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Water.shadergraph.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/GravelyBeachCondition 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/GravelyBeachCondition 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/SandyBeachCondition.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TileConditions/SandyBeachCondition.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/GravelyBeachTile 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/GravelyBeachTile 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SandyBeachTile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tiles/SandyBeachTile.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/HDRPProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Map Settings/HeightMapSettings 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Map Settings/HeightMapSettings 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Map Settings/HumidityMapSettings 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Map Settings/HumidityMapSettings 1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Map Settings/TemperatureMapSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Map Settings/TemperatureMapSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DebugAlt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DebugAlt.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/AridGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/AridGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Debug.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Debug.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DebugAlt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DebugAlt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/LushGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LushGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Snow 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Snow 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Noise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Noise.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/HighHeight.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/HighHeight.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/LowHeight.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/LowHeight.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/SnowCondition.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileConditions/SnowCondition.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/WaterCondition.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileConditions/WaterCondition.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/AridGreenTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/AridGreenTile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Tiles/DebugTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/DebugTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/DebugTile.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/DebugTile.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/LushGreenTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/LushGreenTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/PivotedDebugTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/PivotedDebugTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/SnowTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/SnowTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/WaterTile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/WaterTile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Hextiles/Meshes/HexTop_Pasture.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Yoinked Stuff/Hextiles/Meshes/HexTop_Pasture.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearLower.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaise.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/JetPlane.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearLower.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearLowered.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaise.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropGearRaised.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Animation/PropPlane.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/FlightWind.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/JetEngine.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Audio/PropellerEngine.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftFuselageWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsJetWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellersWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleAfterburner.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Materials/ParticleJetTrail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftJetAI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropeller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Prefabs/AircraftPropellerAi.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01GreyAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur01WhiteAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02WhiteAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerNormals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsPropellerOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/AccelerationHigh.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/DecelerationLow.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/Skid.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Audio/Skid.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/CarGuidelines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/CarGuidelines.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarBodyWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarLightGlows.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Models/SkyCar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Models/SkyCar.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/Car.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/Car.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/CarWaypointBased.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Prefabs/SkidTrail.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/Suspension.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/Suspension.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkidTrailAlbedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarBodyNormals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Yoinked Stuff/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hexagon.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/hexagon.mtl.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ee/ee4009281412cb936265ee90a965e998" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/13806f25990a69ef5eceba3b900304d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/29/291bef50867e38412496c12209daf397" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2e/2ef55ba151fc03e22f82205c4596a3c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3e/3e4a9c8f0b2e14c95cf64d14b793f9e0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7d/7d0e5fe06a8cbec4622a0589f6dfb7a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/87/8720314c83315cc97d3d35ebc9a44877" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/87/87a3e680486d9a6cb3a3de3db8c3ae6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/93/939837e0d5e774642990585d5226d079" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9e/9eec60b3f11fa25791c77258c1ca91f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b5/b5b98a43fefc2f05528fcd0c3399b6ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd07d67e13f98914aa43535f383d1e84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d69013b64e773735586b9b47fbc1bf96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f7/f7b7d83263d75d6ea0f2dfc7f7bd3408" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fc/fc21739656d7a6cc84e6f03a9a3812d5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorOnlyScriptingSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PsdPlugin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PsdPlugin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/PsdPlugin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/PsdPlugin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.KdTree.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Poly2Tri.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.Stl.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ProBuilder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Searcher.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Searcher.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Searcher.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Searcher.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4f/4f64e129038f9bf9ab9ac731adb55749.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4f/4f64e129038f9bf9ab9ac731adb55749.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" beforeDir="false" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterDir="false" />
     </list>
@@ -179,9 +349,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TextureGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/MapSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Noise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Noise.cs" />
       </list>
     </option>
   </component>
@@ -233,6 +403,7 @@
       <workItem from="1598646005000" duration="2807000" />
       <workItem from="1598698716123" duration="8324000" />
       <workItem from="1598722358167" duration="11797000" />
+      <workItem from="1598788899300" duration="8652000" />
     </task>
     <servers />
   </component>

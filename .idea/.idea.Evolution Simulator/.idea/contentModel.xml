@@ -247,42 +247,6 @@
               <e p="WaypointCircuit.cs" t="Include" />
               <e p="WaypointProgressTracker.cs" t="Include" />
             </e>
-            <e p="Vehicles" t="Include">
-              <e p="Aircraft" t="Include">
-                <e p="AircraftGuidelines.txt" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="AeroplaneAiControl.cs" t="Include" />
-                  <e p="AeroplaneAudio.cs" t="Include" />
-                  <e p="AeroplaneController.cs" t="Include" />
-                  <e p="AeroplaneControlSurfaceAnimator.cs" t="Include" />
-                  <e p="AeroplanePropellerAnimator.cs" t="Include" />
-                  <e p="AeroplaneUserControl2Axis.cs" t="Include" />
-                  <e p="AeroplaneUserControl4Axis.cs" t="Include" />
-                  <e p="JetParticleEffect.cs" t="Include" />
-                  <e p="LandingGear.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Car" t="Include">
-                <e p="CarGuidelines.txt" t="Include" />
-                <e p="Scripts" t="Include">
-                  <e p="BrakeLight.cs" t="Include" />
-                  <e p="CarAIControl.cs" t="Include" />
-                  <e p="CarAudio.cs" t="Include" />
-                  <e p="CarController.cs" t="Include" />
-                  <e p="CarSelfRighting.cs" t="Include" />
-                  <e p="CarUserControl.cs" t="Include" />
-                  <e p="Mudguard.cs" t="Include" />
-                  <e p="SkidTrail.cs" t="Include" />
-                  <e p="Suspension.cs" t="Include" />
-                  <e p="WheelEffects.cs" t="Include" />
-                </e>
-                <e p="Shaders" t="Include">
-                  <e p="DiffuseReflectiveShader.shader" t="Include" />
-                  <e p="ReflectiveDiffuseSpec.shader" t="Include" />
-                  <e p="ReflectiveDiffuseSpecTransp.shader" t="Include" />
-                </e>
-              </e>
-            </e>
           </e>
         </e>
       </e>

@@ -19,8 +19,8 @@ public class TileConditions : ScriptableObject {
 		Debug.Log("Height Value in Tile Condition:" + height.ToString());
 		Debug.Log("Humidity Value in Tile Condition:" + humidity.ToString());
 		Debug.Log("Temperature Value in Tile Condition:" + temperature.ToString());
-		
-		bool validHeight = (height > minHeight) && (height <= maxHeight);
+
+		bool validHeight = height > minHeight && height <= maxHeight;
 		bool validHumidity = (humidity > minHumidity) && (humidity <= maxHumidity);
 		bool validTemperature = (temperature > minTemperature) && (temperature <= maxTemperature);
 		//Debug.Log("Valid Bool: " + valid.ToString());
