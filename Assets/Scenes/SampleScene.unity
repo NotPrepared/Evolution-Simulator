@@ -490,14 +490,14 @@ MonoBehaviour:
   length: 100
   width: 100
   scale: 5
-  yScale: 5
+  yScale: 6
   heightMapSettings: {fileID: 11400000, guid: ba48a6e61cf6a6443b6b3d3cbfd3f2a6, type: 2}
   humidityMapSettings: {fileID: 11400000, guid: 0c224a19fd230894299a59440d54a5ea,
     type: 2}
   temperatureMapSettings: {fileID: 11400000, guid: 740a13ca91e454c51aeb1f625a396eca,
     type: 2}
   waterPlane: {fileID: 1565973941}
-  waterHeight: 0.2
+  waterHeight: 0.15
   tileConditions:
   - {fileID: 11400000, guid: 3dc720b4bda71834a869dd7db016d45a, type: 2}
   - {fileID: 11400000, guid: a1d5224e5f9d7ad47ae77eedc0174435, type: 2}
@@ -505,6 +505,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9a5647b9fe9fcdf429091522532d5700, type: 2}
   - {fileID: 11400000, guid: 3dda081cc4167b44d888a8133f5b65f8, type: 2}
   surface: {fileID: 1893466114}
+  useFalloff: 1
+  heightAffectsTemperature: 1
 --- !u!4 &1893466112
 Transform:
   m_ObjectHideFlags: 0
