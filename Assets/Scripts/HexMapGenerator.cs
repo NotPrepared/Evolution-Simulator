@@ -41,7 +41,7 @@ public class HexMapGenerator : MonoBehaviour
     void Start()
     {
         GenerateTileMap();
-        
+
         surface.BuildNavMesh();
     }
 
@@ -52,38 +52,40 @@ public class HexMapGenerator : MonoBehaviour
         Map heightMap = null;
         Map humidityMap = null;
         Map temperatureMap = null;
-        
+
         //Create Height Map
         if (useFalloff)
         {
-            heightMap = GenerateMapWithMulitplier(length, width, heightMapSettings, Vector2.zero, falloffMap, false); 
+            heightMap = GenerateMapWithMulitplier(length, width, heightMapSettings, Vector2.zero, falloffMap, false);
         }
         else
         {
             heightMap = GenerateMap(length, width, heightMapSettings, Vector2.zero);
         }
-        
+
 
         //Create Temperature Map
         if (heightAffectsTemperature)
         {
-            temperatureMap = GenerateMapWithMulitplier(length, width, temperatureMapSettings, Vector2.zero, heightMap, true);
+            temperatureMap =
+                GenerateMapWithMulitplier(length, width, temperatureMapSettings, Vector2.zero, heightMap, true);
         }
         else
         {
             temperatureMap = GenerateMap(length, width, temperatureMapSettings, Vector2.zero);
         }
-        
+
         //Create Humidity Map
         if (temperatureAffectsHumidity)
         {
-            humidityMap = GenerateMapWithMulitplier(length, width, humidityMapSettings, Vector2.zero, temperatureMap, false);
+            humidityMap =
+                GenerateMapWithMulitplier(length, width, humidityMapSettings, Vector2.zero, temperatureMap, false);
         }
         else
         {
             humidityMap = GenerateMap(length, width, humidityMapSettings, Vector2.zero);
         }
-        
+
         //Variables for scaling
         float zScale = tilesPer1UnitZ * scale;
         float xScale = tilesPer1UnitX * scale;
@@ -91,14 +93,15 @@ public class HexMapGenerator : MonoBehaviour
         float maxYDifference = yScale * tilesPer1UnitY;
 
         //Positioning Water plane
-        waterPlane.transform.position= new Vector3(tilesPer1UnitX *scale*length/2f, waterHeight* yScale, tilesPer1UnitZ *scale*width/2f);
-        waterPlane.transform.localScale= new Vector3(tilesPer1UnitX *length/2f, 1, tilesPer1UnitZ *width/2f);
-        
+        waterPlane.transform.position = new Vector3(tilesPer1UnitX * scale * length / 2f, waterHeight * yScale,
+            tilesPer1UnitZ * scale * width / 2f);
+        waterPlane.transform.localScale = new Vector3(tilesPer1UnitX * length / 2f, 1, tilesPer1UnitZ * width / 2f);
+
         //Variables for max Map values
         float maxHeight = heightMap.maxValue;
         float maxTemperature = temperatureMap.maxValue;
         float maxHumidity = humidityMap.maxValue;
-        
+
         //Generate Tiles by looping over x and z
         for (int xCoord = 0; xCoord < length; xCoord++)
         {
@@ -113,10 +116,11 @@ public class HexMapGenerator : MonoBehaviour
                 float height = heightMap.values[xCoord, zCoord];
                 float humidity = humidityMap.values[xCoord, zCoord];
                 float temperature = temperatureMap.values[xCoord, zCoord];
-              
+
                 yCoordNormalized = yScale * height;
-                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized-maxYDifference/20, zCoordNormalized);
-                
+                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized - maxYDifference / 20,
+                    zCoordNormalized);
+
                 //Find valid Tile and instantiate it
                 GameObject rightPrefab = findValidTile(height, humidity, temperature);
 
@@ -133,13 +137,15 @@ public class HexMapGenerator : MonoBehaviour
         {
             if (tileConditions[i].CheckIfValid(height, humidity, temperature)) return tileConditions[i].prefabTile;
         }
-        
+
         //Should never happen 
         Debug.Log("no valid tile found");
         return null;
     }
 
 
+    //Code by Sebastian Lague: https://github.com/SebLague/Procedural-Landmass-Generation
+    // Modified by me to suit my needs and make the code more perfomant and more modular
     public Map GenerateMap(int width, int height, MapSettings settings, Vector2 sampleCentre)
     {
         //Initializing map values
@@ -173,7 +179,8 @@ public class HexMapGenerator : MonoBehaviour
         return new Map(values, minValue, maxValue);
     }
 
-    public Map GenerateMapWithMulitplier(int width, int height, MapSettings settings, Vector2 sampleCentre, Map otherMap, bool inverse=false)
+    public Map GenerateMapWithMulitplier(int width, int height, MapSettings settings, Vector2 sampleCentre,
+        Map otherMap, bool inverse = false)
     {
         //Initializing map values
         float[,] values = Noise.GenerateNoiseMap(width, height, settings.noiseSettings, sampleCentre);
@@ -190,7 +197,7 @@ public class HexMapGenerator : MonoBehaviour
             {
                 //Get value at postion
                 values[i, j] *= heightCurve_threadsafe.Evaluate(values[i, j]);
-                values[i, j] *= (inverse) ? Mathf.Lerp(1f, 0f, otherMap.values[i,j]) : otherMap.values[i, j];
+                values[i, j] *= (inverse) ? Mathf.Lerp(1f, 0f, otherMap.values[i, j]) : otherMap.values[i, j];
 
                 //Update max/min value
                 if (values[i, j] > maxValue)

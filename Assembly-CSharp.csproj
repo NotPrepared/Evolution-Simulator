@@ -102,12 +102,9 @@
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\FireLight.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
-     <Compile Include="Assets\Scripts\ThreadedDataRequester.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\2D\Scripts\Restarter.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
-     <Compile Include="Assets\Scripts\Data\MeshSettings.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
@@ -118,7 +115,6 @@
      <Compile Include="Assets\Scripts\Data\UpdatableData.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\AlphaButtonClickMask.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\DynamicShadowSettings.cs" />
-     <Compile Include="Assets\Scripts\HideOnPlay.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\LerpControlledBob.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\SmokeParticles.cs" />
@@ -129,7 +125,6 @@
      <Compile Include="Assets\Scripts\Noise.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
-     <Compile Include="Assets\Scripts\Data\TextureData.cs" />
      <Compile Include="Assets\Yoinked Stuff\NavMeshComponents\Scripts\NavMeshLink.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Scripts\Explosive.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
@@ -139,7 +134,6 @@
      <Compile Include="Assets\Scripts\FalloffGenerator.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\FOVKick.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Yoinked Stuff\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -157,7 +151,6 @@
      <None Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-     <None Include="Assets\Scripts\Terrain.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Yoinked Stuff\Standard Assets\Effects\ImageEffects\Readme.txt" />

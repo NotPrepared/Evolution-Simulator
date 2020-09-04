@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//Code by Sebastian Lague: https://github.com/SebLague/Procedural-Landmass-Generation
+// Modified by me to suit my needs and make the code more performant
 public static class Noise
 {
     public enum NormalizeMode
