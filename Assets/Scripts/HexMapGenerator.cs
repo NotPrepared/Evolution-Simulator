@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.ProBuilder.MeshOperations;
 
 // ReSharper disable All
 
@@ -29,6 +30,7 @@ public class HexMapGenerator : MonoBehaviour
 
     public bool useFalloff;
     public bool heightAffectsTemperature;
+    public bool temperatureAffectsHumidity;
 
     //Tiles
     public TileConditions[] tileConditions;
@@ -40,7 +42,7 @@ public class HexMapGenerator : MonoBehaviour
     {
         GenerateTileMap();
         
-        //surface.BuildNavMesh();
+        surface.BuildNavMesh();
     }
 
     private void GenerateTileMap()
@@ -60,9 +62,7 @@ public class HexMapGenerator : MonoBehaviour
         {
             heightMap = GenerateMap(length, width, heightMapSettings, Vector2.zero);
         }
-
-        //Create Humidity Map
-        humidityMap = GenerateMap(length, width, humidityMapSettings, Vector2.zero);
+        
 
         //Create Temperature Map
         if (heightAffectsTemperature)
@@ -72,6 +72,16 @@ public class HexMapGenerator : MonoBehaviour
         else
         {
             temperatureMap = GenerateMap(length, width, temperatureMapSettings, Vector2.zero);
+        }
+        
+        //Create Humidity Map
+        if (temperatureAffectsHumidity)
+        {
+            humidityMap = GenerateMapWithMulitplier(length, width, humidityMapSettings, Vector2.zero, temperatureMap, false);
+        }
+        else
+        {
+            humidityMap = GenerateMap(length, width, humidityMapSettings, Vector2.zero);
         }
         
         //Variables for scaling

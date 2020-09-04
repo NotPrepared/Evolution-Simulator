@@ -22,12 +22,10 @@
           <e p="FlyCamera.cs" t="Include" />
           <e p="HexMapGenerator.cs" t="Include" />
           <e p="HideOnPlay.cs" t="Include" />
-          <e p="MeshGenerator.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="Noise.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Terrain.shader" t="Include" />
-          <e p="TextureGenerator.cs" t="Include" />
           <e p="ThreadedDataRequester.cs" t="Include" />
         </e>
         <e p="Yoinked Stuff" t="Include">

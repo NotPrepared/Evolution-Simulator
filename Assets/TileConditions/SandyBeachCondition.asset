@@ -16,7 +16,7 @@ MonoBehaviour:
   maxHeight: 0.2
   minHumidity: -0.1
   maxHumidity: 1
-  minTemperature: 0.5
+  minTemperature: -0.1
   maxTemperature: 1
-  prefabTile: {fileID: 5683237835706583505, guid: 47a2aabbbb6b66d49b8b61cb455d5e44,
+  prefabTile: {fileID: 3119795612785119709, guid: e0fcd5ffb3284374a8d41e64bc824d8d,
     type: 3}
