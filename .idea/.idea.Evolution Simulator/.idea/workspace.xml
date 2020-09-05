@@ -20,106 +20,678 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58ff8755-9fe9-45fe-b495-188f3afca575" name="Default Changelist" comment="Added options for using falloff map and height affecting temperature&#10;&#10;Also optimized the code a bit and added comments for clarity">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Evolution Simulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/MapSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/MapSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/MeshSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/MeshSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/TextureData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/TextureData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FalloffGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FalloffGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlyCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlyCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HideOnPlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HideOnPlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Noise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Noise.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Terrain.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Terrain.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThreadedDataRequester.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThreadedDataRequester.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/01/01f3ddb8e62223fd9bef562c178a30f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0b/0b3d85db9d22efe5447fde841eae2b47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0f/0f70b80a1aae0fff10da627d94098f71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/10/1083c05e77ae601cc4702c1de2c14b8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/13/1393beae9280328095721eac91ac71fd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/15/15137d6e427cca31f4ed17a533732cae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1e/1efa3fc7cd6592c427c650cd5a37f97a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2a/2a180e192b6ae0f5a12ac2dc6eaff5ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/2d/2df76129f56f7777d7c7875edf333c19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/31/31cf8175cd9a682894879ef5c61f2275" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/33/33db415eb5c8902b08ba6633089d3174" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/34/348847f352658fce8ddecca845ab24fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/34/34a017c4f914f0e2ce84f38f9d09a866" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/34/34ea1dc8bd53e2420f58d2883648ef5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/3543af88d606c4c3db7830b2d86cd79d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/37/37484b63039622100aec9bce1810e962" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/38/38488d2ef718f644c64839cfc121def4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/39/3986f8470861896da6479a22c3f370b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3c/3c299cc1c52c2198d57425768eb9465f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/3f/3fb5a7e24655a4d9bc39af7bb594f001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/40/40a1240c8c38005bfae55df6e81abeba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/45/4562be52b4123e328d4779a703786d44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4a/4a1e3f360f9078c5ee0cc414ea587ba3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4c/4c403fcad29e5b2783003d5473a972e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4d/4de54aa2c45616e0307a55c95b786925" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4e/4e8e2cd0518669d24250ea193453a6cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/51/51215b211e18afa80db9a7fff33d18c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/56/56ca29bfd3ca90dcc4f2995403d75c65" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/58/5841fd49f50afd65b0d52f05c45f7f90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/60/6000229148538f5cb96d053e01e082e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/70e19314d1cc5aa4027404f03fe0ceaa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/73/7381f585348c751b3cf544e8d94aa995" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/76eea30788e1a797c10cd8c0786e9112" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/78/78f0f2f66d84748a8cf7658652b8c0fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/78/78f4743ccfc6d2b3b673957e2e327b6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7a/7a04b4bf62d35d8492682354f1f73ce4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/7a/7aac3f7287631a703e4cb862dd1a25c7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/80/80503aa3256e1e238510a50e4177d4e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/843e2911767d3582b1f064288b1b7a88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/84/84453f6ccc24d2c242749c419af17b2c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/85/85ee3e172e4536f70f8645a315e2f161" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/89/89e4b2847106163c51d6a6389da31f86" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/90/90767b32bae770b7361d82537136f8b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c8c0c6d72c8e5537fa23019025a852a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9f/9fbbd1d37c5fc9a7b78db50ea0ec9dde" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/aa/aad91807567c9fddce527dc973e02055" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ad/ad949f11b8c809e0dfbb20445b7d53ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b2277766454735a798c43909a389e4f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c5/c56f7f50383a4fa56fc3989bed0d5a36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c9/c982e1897f568e4080e32eebb2b63704" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/cd/cd7985c060f7dad9131326c77f40d864" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d0/d0ac3f5ff7a35704d7a9d16448a00aae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d1/d1372f36d39cf151648f71f4cf26a24e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d2/d2496f51c306ac4cc49e822af2ddd0a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d6/d6a16881ca7411a0d24f42df9574a93b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/df/dff1f5357574185f13c457729c364ca7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2774e2c919164522207ea33b65f0f4f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e446a4dbcecb7d2976ddf2c5f32fcc80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f3/f3cbce5d444f33e5e658fd0bdc7b7798" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/ff/ff84b98cd40013d9c0231be14c63015a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/03/03337e3d25401824177ee2dd78aae08a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0c/0c744820916727e34e06fac0c8c839c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/11/11c507f782ec1488cd9f95d2b9538094" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/472fd6f45b36c201b0879aa84df5df13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/69/69e37290a38eb13caf459b6aff69f6cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/92/9242e609adc98989d4ad9c7f9b0fe854" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a5/a5d5d37e8a75c652cc7f0ff393d8a5f5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b6/b677b144dae74edb45bc2136223fccd8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bc/bce37aeb66caf7967def40aa3a48c6fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c9/c9102c68de31a444c193ba06aa43ce38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e4/e4c87d1b06318ba5118a4223fadf0169" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e9/e95def5b147c32a80207f24bb1ba45df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f0/f026132056f25cf80e63483031239097" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f0/f0939fce25f29cb998164569557f9fa3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f3/f36d085261de8465302d20556ed2e2e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/.Resources/.collabattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/.Resources/.collabignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/added-file-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/back-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-mine-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/choose-remote-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/clear-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-available-changes-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-done-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-error-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-incoming-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-offline-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-progress-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/collaborate-warning-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/conflicted-file-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/deleted-file-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/diff-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/edited-file-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/loading-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-conflicts-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/merge-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/more-vert-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/moved-file-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/publish-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/revert-asset-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/search-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/show-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-error-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-info-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/status-warning-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-dark@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-dark@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-light@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Icons/undo-light@2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/AlertBox.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/AlertBox.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/BaseChangeListElement.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/BaseChangeListElement.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ChangesGroupHeader.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ChangesGroupHeader.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ChangesTabPageView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ChangesTabPageView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ErrorPageView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ErrorPageView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/HistoryEntryComponent.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/HistoryEntryComponent.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/HistoryTabPageView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/HistoryTabPageView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ListNotice.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ListNotice.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/MainPageView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/MainPageView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/Paginator.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/Paginator.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ProgressView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/ProgressView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/StartPageView.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/StartPageView.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/TopBar.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/TopBar.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/main-window.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Layouts/main-window.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/StringAssets.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/StringAssets.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/AlertBox.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/AlertBox.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/BaseChangeListElement.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/BaseChangeListElement.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/BetterTextField.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/BetterTextField.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ChangesGroupHeader.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ChangesGroupHeader.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ChangesTabPageView.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ChangesTabPageView.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingDialogue.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingDialogue.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingMenu.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingMenu.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingMenuItem.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/FloatingMenuItem.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/HistoryEntryComponent.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/HistoryEntryComponent.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/IconButton.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/IconButton.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/IconTextButton.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/IconTextButton.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ListNotice.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ListNotice.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/MainPageView.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/MainPageView.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/Paginator.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/Paginator.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ProgressView.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ProgressView.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/SearchBar.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/SearchBar.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/StartPageView.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/StartPageView.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TabView.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TabView.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TextButton.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TextButton.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ToggleableChangeListElement.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/ToggleableChangeListElement.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TopBar.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/TopBar.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/styles.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/Styles/styles.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/UiConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Assets/UiConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/ArrayContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/ArrayContainer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/LocationAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/LocationAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/ScriptableObjectSingleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/ScriptableObjectSingleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/SerializableDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/SerializableDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/StringArrayContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Common/StringArrayContainer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/AdapterListView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/AdapterListView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/AlertBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/AlertBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/BetterTextField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/BetterTextField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeEntryGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeEntryGroup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/BaseChangeListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/BaseChangeListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ChangeListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ChangeListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ConflictedChangeListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ConflictedChangeListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/HistoryChangeListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/HistoryChangeListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ToggleableChangeListElement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangeListElements/ToggleableChangeListElement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangesGroupHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ChangesGroupHeader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ErrorPageView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ErrorPageView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/HistoryEntryComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/HistoryEntryComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/IconButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/IconButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/IconTextButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/IconTextButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ListNotice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ListNotice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingDialogue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingDialogue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingMenuItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Menus/FloatingMenuItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/PageComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/PageComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Paginator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/Paginator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ProgressView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/ProgressView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/SearchBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/SearchBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TabPageComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TabPageComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TabView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TabView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TextButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TextButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TopBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Components/TopBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Api.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Api/ISourceControlProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Api/ISourceControlProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/ChangesModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/ChangesModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Enums.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Enums/ProjectStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Enums/ProjectStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/HistoryModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/HistoryModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IChangesModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IChangesModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IHistoryModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IHistoryModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IMainModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IMainModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IStartModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/IStartModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/MainModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/MainModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Providers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Providers/Collab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Providers/Collab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/StartModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/StartModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ChangeEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ChangeEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ErrorInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ErrorInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/HistoryEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/HistoryEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IChangeEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IChangeEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IChangeEntryData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IChangeEntryData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IErrorInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IErrorInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IHistoryEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IHistoryEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IProgressInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/IProgressInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ProgressInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Models/Structures/ProgressInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/ChangesPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/ChangesPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/HistoryPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/HistoryPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IChangesPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IChangesPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IHistoryPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IHistoryPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IMainPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IMainPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IStartPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/IStartPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/MainPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/MainPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/StartPresenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Presenters/StartPresenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Properties/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSetting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSetting.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettingsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettingsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettingsProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/CollabSettingsProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Settings/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Unity.CollabProxy.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Unity.CollabProxy.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/Bootstrap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/Bootstrap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/CollaborateWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/CollaborateWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/ToolbarButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/ToolbarButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/WindowCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/UserInterface/WindowCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/ExtensionMethods.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/ExtensionMethods.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/MenuUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/MenuUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/OpenLinksUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/OpenLinksUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/StringUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/StringUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/Threading.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/Threading.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/TimeStamp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Utilities/TimeStamp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/IAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/IAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/IAdapterObserver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/IAdapterObserver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/BaseListAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/BaseListAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/ConflictedChangeListAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/ConflictedChangeListAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/HistoryEntryChangeListAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/HistoryEntryChangeListAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/ToggleableChangeListAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/Adapters/ListAdapters/ToggleableChangeListAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/ChangesTabPageView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/ChangesTabPageView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/HistoryTabPageView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/HistoryTabPageView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IChangesView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IChangesView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IHistoryView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IHistoryView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IMainView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IMainView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IStartView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IStartView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/IView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/MainPageView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/MainPageView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/StartPageView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Editor/Views/StartPageView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/LICENSE.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/.tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/ChangesModelTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/ChangesModelTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/HistoryModelTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/HistoryModelTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/Providers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/Providers/MockSourceControlProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/Providers/MockSourceControlProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/StartModelTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/StartModelTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestChangesModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestChangesModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestHistoryModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestHistoryModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestMainModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestMainModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestSourceControlProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestSourceControlProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestStartModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestStartModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestWindowCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Models/TestWindowCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/ChangesPresenterTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/ChangesPresenterTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/HistoryPresenterTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/HistoryPresenterTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/MainPresenterTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/MainPresenterTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/StartPresenterTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/StartPresenterTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestChangesView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestChangesView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestHistoryView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestHistoryView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestMainView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestMainView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestStartView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Presenters/TestStartView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Scenario.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Scenario/AsyncToCoroutine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Scenario/AsyncToCoroutine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Scenario/BasicTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Scenario/BasicTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/ScenarioTestBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/ScenarioTestBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestConstants.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestConstants.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/TestWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/UITestHelpers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/UITestHelpers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/Editor/Unity.CollabProxy.EditorTests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Tests/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Third Party Notices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/Third Party Notices.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.3.8/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/44/4445aaa2ec3501f171523798a5a42393.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/44/4445aaa2ec3501f171523798a5a42393.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/4f/4f64e129038f9bf9ab9ac731adb55749.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/4f/4f64e129038f9bf9ab9ac731adb55749.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Style.catalog" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Style.catalog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,12 +716,12 @@
         <option value="$PROJECT_DIR$/Assets/HexMapGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/navmashsurface.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextureGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Noise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FalloffGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlyCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/TileConditions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Data/MapSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HexMapGenerator.cs" />
       </list>
     </option>
   </component>
@@ -205,6 +777,7 @@
       <workItem from="1598900502172" duration="7480000" />
       <workItem from="1598964581441" duration="2744000" />
       <workItem from="1599218937273" duration="825000" />
+      <workItem from="1599311291363" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="Added options for using falloff map and height affecting temperature&#10;&#10;Also optimized the code a bit and added comments for clarity">
       <created>1598908223483</created>

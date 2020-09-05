@@ -37,6 +37,12 @@ public class HexMapGenerator : MonoBehaviour
 
     //Navmesh
     public NavMeshSurface surface;
+    
+    //Map Data
+    Map falloffMap;
+    Map heightMap;
+    Map humidityMap;
+    Map temperatureMap;
 
     void Start()
     {
@@ -48,11 +54,8 @@ public class HexMapGenerator : MonoBehaviour
     private void GenerateTileMap()
     {
         //Maps
-        Map falloffMap = GenerateFalloffMap(length);
-        Map heightMap = null;
-        Map humidityMap = null;
-        Map temperatureMap = null;
-
+        falloffMap = GenerateFalloffMap(length);
+       
         //Create Height Map
         if (useFalloff)
         {
