@@ -21,18 +21,38 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tundra
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4a5a20b772da404439ae3fb4bcf9b44d,
+    type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3C9669D1:
+        m_Texture: {fileID: 2800000, guid: 71709f9cf961ad546bff0d366f638289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6D06A35F:
+        m_Texture: {fileID: 2800000, guid: 35aab2a27b81bb048a6e8e33ebf47cb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9D6DDA34:
+        m_Texture: {fileID: 2800000, guid: 1899c6b90219f7e4b8262c348366c7d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C65EE47E:
+        m_Texture: {fileID: 2800000, guid: ffd72a83df410da49a22d9d9fb30ed02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C72E5317:
+        m_Texture: {fileID: 2800000, guid: 0fa4fe927fdcd544eaea1012b28a4ca1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 22da49d227e55449d9ab0dbc09fe7f46, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +98,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_FFB45DEC: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

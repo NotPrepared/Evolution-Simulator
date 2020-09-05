@@ -93,11 +93,10 @@ public class HexMapGenerator : MonoBehaviour
         float zScale = tilesPer1UnitZ * scale;
         float xScale = tilesPer1UnitX * scale;
         yScale *= scale;
-        float maxYDifference = yScale * tilesPer1UnitY;
+        //float maxYDifference = tilesPer1UnitY * yScale;
 
         //Positioning Water plane
-        waterPlane.transform.position = new Vector3(tilesPer1UnitX * scale * length / 2f, waterHeight * yScale,
-            tilesPer1UnitZ * scale * width / 2f);
+        waterPlane.transform.position = new Vector3(tilesPer1UnitX * scale * length / 2f, waterHeight* yScale, tilesPer1UnitZ * scale * width / 2f);  
         waterPlane.transform.localScale = new Vector3(tilesPer1UnitX * length / 2f, 1, tilesPer1UnitZ * width / 2f);
 
         //Variables for max Map values
@@ -120,8 +119,8 @@ public class HexMapGenerator : MonoBehaviour
                 float humidity = humidityMap.values[xCoord, zCoord];
                 float temperature = temperatureMap.values[xCoord, zCoord];
 
-                yCoordNormalized = yScale * height;
-                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized - maxYDifference / 20,
+                yCoordNormalized = height* yScale; 
+                Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized,
                     zCoordNormalized);
 
                 //Find valid Tile and instantiate it
@@ -129,7 +128,7 @@ public class HexMapGenerator : MonoBehaviour
 
                 GameObject newTile = Instantiate(rightPrefab, coordsForTile, Quaternion.identity);
 
-                newTile.transform.localScale = new Vector3(scale, maxYDifference, scale);
+                newTile.transform.localScale = new Vector3(scale, scale, scale);
             }
         }
     }
