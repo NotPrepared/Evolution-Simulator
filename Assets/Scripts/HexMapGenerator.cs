@@ -31,13 +31,16 @@ public class HexMapGenerator : MonoBehaviour
     public bool useFalloff;
     public bool heightAffectsTemperature;
     public bool temperatureAffectsHumidity;
+    public AnimationCurve temperatureAffectionByHeight;
+    public AnimationCurve humidityAffectionByTemperature;
+    public AnimationCurve heightAffectionByFalloff;
 
     //Tiles
     public TileConditions[] tileConditions;
 
     //Navmesh
     public NavMeshSurface surface;
-    
+
     //Map Data
     Map falloffMap;
     Map heightMap;
@@ -55,11 +58,11 @@ public class HexMapGenerator : MonoBehaviour
     {
         //Maps
         falloffMap = GenerateFalloffMap(length);
-       
+
         //Create Height Map
         if (useFalloff)
         {
-            heightMap = GenerateMapWithMulitplier(length, width, heightMapSettings, Vector2.zero, falloffMap, false);
+            heightMap = GenerateMapWithMulitplier(length, width, heightMapSettings, Vector2.zero, falloffMap, heightAffectionByFalloff);
         }
         else
         {
@@ -71,7 +74,7 @@ public class HexMapGenerator : MonoBehaviour
         if (heightAffectsTemperature)
         {
             temperatureMap =
-                GenerateMapWithMulitplier(length, width, temperatureMapSettings, Vector2.zero, heightMap, true);
+                GenerateMapWithMulitplier(length, width, temperatureMapSettings, Vector2.zero, heightMap, temperatureAffectionByHeight);
         }
         else
         {
@@ -82,7 +85,7 @@ public class HexMapGenerator : MonoBehaviour
         if (temperatureAffectsHumidity)
         {
             humidityMap =
-                GenerateMapWithMulitplier(length, width, humidityMapSettings, Vector2.zero, temperatureMap, false);
+                GenerateMapWithMulitplier(length, width, humidityMapSettings, Vector2.zero, temperatureMap, humidityAffectionByTemperature);
         }
         else
         {
@@ -96,7 +99,8 @@ public class HexMapGenerator : MonoBehaviour
         //float maxYDifference = tilesPer1UnitY * yScale;
 
         //Positioning Water plane
-        waterPlane.transform.position = new Vector3(tilesPer1UnitX * scale * length / 2f, waterHeight* yScale, tilesPer1UnitZ * scale * width / 2f);  
+        waterPlane.transform.position = new Vector3(tilesPer1UnitX * scale * length / 2f, waterHeight * yScale,
+            tilesPer1UnitZ * scale * width / 2f);
         waterPlane.transform.localScale = new Vector3(tilesPer1UnitX * length / 2f, 1, tilesPer1UnitZ * width / 2f);
 
         //Variables for max Map values
@@ -119,7 +123,7 @@ public class HexMapGenerator : MonoBehaviour
                 float humidity = humidityMap.values[xCoord, zCoord];
                 float temperature = temperatureMap.values[xCoord, zCoord];
 
-                yCoordNormalized = height* yScale; 
+                yCoordNormalized = height * yScale;
                 Vector3 coordsForTile = new Vector3(xCoordNormalized, yCoordNormalized,
                     zCoordNormalized);
 
@@ -182,7 +186,7 @@ public class HexMapGenerator : MonoBehaviour
     }
 
     public Map GenerateMapWithMulitplier(int width, int height, MapSettings settings, Vector2 sampleCentre,
-        Map otherMap, bool inverse = false)
+        Map otherMap, AnimationCurve affectionCurve)
     {
         //Initializing map values
         float[,] values = Noise.GenerateNoiseMap(width, height, settings.noiseSettings, sampleCentre);
@@ -199,7 +203,8 @@ public class HexMapGenerator : MonoBehaviour
             {
                 //Get value at postion
                 values[i, j] *= heightCurve_threadsafe.Evaluate(values[i, j]);
-                values[i, j] *= (inverse) ? Mathf.Lerp(1f, 0f, otherMap.values[i, j]) : otherMap.values[i, j];
+                float affectionValue = affectionCurve.Evaluate(otherMap.values[i, j]);
+                values[i, j] *= affectionValue;
 
                 //Update max/min value
                 if (values[i, j] > maxValue)

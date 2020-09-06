@@ -227,6 +227,30 @@ PrefabInstance:
       propertyPath: advancedSettings.slowDownRate
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[2].inSlope
+      value: -0.034985207
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[2].outSlope
+      value: -0.034985207
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[2].inWeight
+      value: 0.033675723
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: movementSettings.SlopeCurveModifier.m_Curve.Array.data[1].outWeight
+      value: 0.110159844
+      objectReference: {fileID: 0}
     - target: {fileID: 13600000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Radius
       value: 0.5
@@ -502,6 +526,96 @@ MonoBehaviour:
   useFalloff: 1
   heightAffectsTemperature: 1
   temperatureAffectsHumidity: 1
+  temperatureAffectionByHeight:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.08198058
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0.051863357
+      outSlope: 0.051863357
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.39294803
+    - serializedVersion: 3
+      time: 0.72016853
+      value: 0.7755965
+      inSlope: -1.7957888
+      outSlope: -1.7957888
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.32357988
+      outWeight: 0.21633996
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.7716558
+      outSlope: -2.7716558
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  humidityAffectionByTemperature:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  heightAffectionByFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   tileConditions:
   - {fileID: 11400000, guid: 5732cd9c641d098488ad300d2f13016a, type: 2}
   - {fileID: 11400000, guid: 96562c7cddf2b98419a5dd3897f2b38b, type: 2}
@@ -512,6 +626,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 626b7e2ea55b6d945b7e4dfe76e6e4b1, type: 2}
   - {fileID: 11400000, guid: de6000d4746ed684cbdaf2be6e5544bb, type: 2}
   - {fileID: 11400000, guid: a1d5224e5f9d7ad47ae77eedc0174435, type: 2}
+  - {fileID: 11400000, guid: ba7670d654b4c84448995c5015f86d1a, type: 2}
   surface: {fileID: 1893466114}
 --- !u!4 &1893466112
 Transform:
@@ -589,8 +704,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainSpeed: 10
-  shiftAdd: 10
-  maxShift: 1000
+  shiftAdd: 100
+  maxShift: 100
   camSens: 0.5
 --- !u!81 &2019853369
 AudioListener:
